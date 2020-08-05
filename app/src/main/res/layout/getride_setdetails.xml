@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme"
+    tools:context=".shareride">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/theme"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="Enter Details"
+                android:textColor="@android:color/black"
+                android:textSize="40sp"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtloc"
+                    style="@style/edittext_style"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="Enter Location"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/txtcollege"
+                    style="@style/edittext_style"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="College Name"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/txtcontno"
+                    style="@style/edittext_style"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="Contact No"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/txttime"
+                    style="@style/edittext_style"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="Time To Leave"
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/btnsetDetails"
+                    style="@style/button_background"
+                    android:layout_width="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:text="Confirm"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

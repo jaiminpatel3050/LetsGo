@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    android:backgroundTint="#00B863"
+    tools:context=".getride_searchcollege">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    android:backgroundTint="#00B863"
+    android:orientation="vertical">
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:background="@android:color/white"
+        android:hint="College Name" />
+
+    <Button
+        android:layout_margin="30dp"
+        android:id="@+id/btnSear"
+        style="@style/button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Search College"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <GridView
+        android:id="@+id/mygrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtget_ride_search"/>
+
+    <!--<EditText-->
+        <!--android:textAlignment="center"-->
+        <!--android:id="@+id/txtSearchID"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:textSize="25dp"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:hint="Input ID" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnAvaPer"-->
+        <!--style="@style/button_background"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:text="Click To Show Person Details"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="20dp" />-->
+
+    <!--<GridView-->
+        <!--android:id="@+id/mygrid1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:numColumns="2"-->
+        <!--android:layout_marginTop="20dp" />-->
+
+</LinearLayout>
+</ScrollView>

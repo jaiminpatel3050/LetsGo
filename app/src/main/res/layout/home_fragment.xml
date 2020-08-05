@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_fragment">
+
+    <!--<fragment-->
+    <!--android:id="@+id/map"-->
+    <!--android:name="com.google.android.gms.maps.MapFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_above="@id/Bottom_Activity">-->
+    <!--</fragment>-->
+
+    <include layout="@layout/activity_maps"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/getridebtn"
+            style="@style/button_background"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="GET RIDE"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/shareridebtn"
+            style="@style/button_background"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SHARE RIDE"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

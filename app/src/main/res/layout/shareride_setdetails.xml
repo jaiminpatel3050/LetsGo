@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".shareride_setdetails">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/theme"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text=" Enter Details "
+                android:textColor="@android:color/black"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+                android:layout_marginVertical="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/details_one"
+                    style="@style/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="Enter Location"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/details_two"
+                    style="@style/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="TIme to Depart"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/details_three"
+                    style="@style/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="Vehicle No."
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/details_four"
+                    style="@style/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="Contact No."
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/details_five"
+                    style="@style/edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="49dp"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:focusable="true"
+                    android:hint="Enter College"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/details_save"
+
+                    style="@style/button_background"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:text="Save Records"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
+

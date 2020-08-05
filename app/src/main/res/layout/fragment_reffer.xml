@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RefferFragmant"
+    android:background="@android:color/holo_green_light">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_dialpad_black_24dp"
+        android:drawableRight="@drawable/ic_dialpad_black_24dp"
+        android:drawableTint="@android:color/white"
+        android:text="Reffral And Earn"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rafearn"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Cash"
+        android:id="@+id/btnPayment"/>
+
+</LinearLayout>
+</ScrollView>

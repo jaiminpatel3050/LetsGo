@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regcolor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".PaymentGateway"
+    android:background="@drawable/animation_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:paddingTop="50dp"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Gateway" />
+
+    <RadioGroup
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:textSize="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credit/Debit Card"
+            android:id="@+id/cdCard"/>
+
+        <RadioButton
+            android:textSize="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Net Banking"
+            android:id="@+id/netBank"/>
+
+        <RadioButton
+            android:textSize="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PayTM"
+            android:id="@+id/paytm"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPay"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:text="Pay Now"/>
+
+</LinearLayout>
+</ScrollView>
